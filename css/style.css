@@ -3,5 +3,13 @@
 /* Fonts */
 
 .header-container{
+	padding-top: 10px;
 	background-color: red;
+	border-radius: 10px;
+}
+.bt-niw{
+	background-color: aqua;
+	border-radius: 8px;
+	margin-top: 10px;
+	padding: 20px auto;
 }
