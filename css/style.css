@@ -1,3 +1,7 @@
+/* Reset */
+@import url("reset.css");
+/* Fonts */
+
 .header-container{
 	background-color: red;
 }
