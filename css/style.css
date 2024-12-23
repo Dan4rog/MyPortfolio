@@ -31,3 +31,30 @@
 		transform: rotateY(360deg);
 	}
 }
+.spiner-2{
+	width: 80px;
+	height: 80px;
+	margin-top: 30px;
+	margin-left: 20px;
+	background: linear-gradient(135deg,#ace0,#33d9b2);
+	border-radius: 20px;
+	animation: spin2 3s infinite linear;
+}
+
+@keyframes spin2 {
+	0%{
+		transform: scale(1) rotate(0deg)
+	}
+	25%{
+		transform: scale(1.2) rotate(90deg)
+	}
+	50%{
+		transform: scale(0.8) rotate(180deg)
+	}
+	75%{
+		transform: scale(1.4) rotate(270deg)
+	}
+	100%{
+		transform: scale(1) rotate(360deg)
+	}
+}
